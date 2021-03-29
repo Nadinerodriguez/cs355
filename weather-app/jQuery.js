@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    // Get Location
+    // Get Location 
     navigator.geolocation.getCurrentPosition(success, error);
 
     function success(pos) {
         var lat = pos.coords.latitude;
         var long = pos.coords.longitude;
-        weather(lat, long);
+        getWeather(lat, long);
     }
 
     function error() {
@@ -20,9 +20,8 @@ $(document).ready(function () {
             updateDOM(data);
         });
     }
-
     // Update Dom
-   function updateDOM(data) {
+    function updateDOM(data) {
         var city = data.name;
         var temp = Math.round(data.main.temp);
         var feelsLike = Math.round(data.main.feels_like);
