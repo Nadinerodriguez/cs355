@@ -30,14 +30,16 @@ span {
 	padding: 25px 5px;
 }
 
-.degrees {
+.degrees, num-humidity {
 	display: grid;
 	grid-template-columns: auto auto;
 	justify-content: center;
 	margin-left: 2rem;
 }
+#humidity-symbol {
+    font-size: 2rem;
+}
 
-img {
-	width: 80px;
-	filter: grayscale(100%);
+#desc {
+    margin-top: 25px;
 }
