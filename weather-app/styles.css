@@ -30,7 +30,7 @@ span {
 	padding: 25px 5px;
 }
 
-.degrees, .num-humidity {
+.degrees, .degrees-feels-like {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
