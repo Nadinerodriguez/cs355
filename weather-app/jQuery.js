@@ -23,7 +23,7 @@ $(document).ready(function () {
     function updateDOM(data) {
         var city = data.name;
         var temp = Math.round(data.main.temp_max);
-        var humidityVal = Math.round(data.main.humidity);
+        var humidityVal = data.main.humidity;
         var desc = data.weather[0].description;
         var icon = data.weather[0].icon;
 
