@@ -30,14 +30,14 @@ span {
 	padding: 25px 5px;
 }
 
-.degrees, .degrees-feels {
+.degrees, .num-humidity {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     margin-left: 2rem;
 }
 
-#feels-like-symbol {
+#humidity-symbol {
     font-size: 2rem;
 }
 
