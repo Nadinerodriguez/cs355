@@ -1,54 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nadine's CS 355 Home Page</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Nadine's CS 355 Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">My Projects</a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Other Links</a>
-        <div class="dropdown-content">
-          <a href="https://github.com/Nadinerodriguez">Github</a>
-          <a href="https://www.linkedin.com/in/nadine-b-rodriguez/">LinkedIn</a>
-        </div>
-      </li>
-    </ul>
-  </nav> -->
-
-  <!-- Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- Bootstrap Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <!--    <a class="navbar-brand" href="index.html">Nadine Rodriguez</a>-->
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+        </ul>
     </div>
-  </nav>
+</nav>
+<!-- End of Bootstrap Navbar -->
 
-<p>Zybooks Chapter 5.7 and Chapter 15.5 Assignment: <a href="./weather-app/weather.html">Weather App Page</a> </p>
-<p>LinkedIn Learning Week 3 & 4 Project: <a href="./css-portfolio/css-portfolio-project.html">My Portfolio</a> </p>
-<p>LinkedIn Learning Week 6 Clock Project: <a href="./clockProj/index.html">Clock Page</a> </p>
-<p>LinkedIn Learning Week 6 Speed Test Project: <a href="./speedProj/index.html">Speed Test Page</a> </p>
-<p>LinkedIn Learning Week 7 Live Search Project: <a href="./liveSearchProj/ajax/index.html">Live Search Page</a> </p>
-<p>LinkedIn Learning Week 10 Chat Application: <a href="./chatApp/index.html">Chat Application</a> </p>
+<!--  Bootstrap Container -->
+<div class="container-fluid">
+
+    <!--    Project 1-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">Zybooks Chapter 5.7 and Chapter 15.5 Assignment</h5>
+            <a href="./weather-app/weather.html" class="btn btn-primary">Weather App Page</a>
+        </div>
+    </div>
+
+    <!--    Project 2-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">LinkedIn Learning Week 3 & 4 Project</h5>
+            <a href="./css-portfolio/css-portfolio-project.html" class="btn btn-primary">My Portfolio</a>
+        </div>
+    </div>
+
+    <!--    Project 3-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">LinkedIn Learning Week 6 Clock Project</h5>
+            <a href="./clockProj/index.html" class="btn btn-primary">Clock Page</a>
+        </div>
+    </div>
+    <!--    Project 4-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">LinkedIn Learning Week 6 Speed Test Project</h5>
+            <a href="./speedProj/index.html" class="btn btn-primary">Speed Test Page</a>
+        </div>
+    </div>
+
+    <!--    Project 5-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">LinkedIn Learning Week 7 Live Search Project</h5>
+            <a href="./liveSearchProj/ajax/index.html" class="btn btn-primary">Live Search Page</a>
+        </div>
+    </div>
+
+    <!--    Project 6-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">LinkedIn Learning Week 10 Chat Application</h5>
+            <a href="#" class="btn btn-primary">Chat Application</a>
+        </div>
+    </div>
+
+    <!--    Project 7-->
+    <div class="card text-center">
+
+        <div class="card-body">
+            <h5 class="card-title">LinkedIn Learning Week 11 Database</h5>
+            <a href="#" class="btn btn-primary">Database Page</a>
+        </div>
+    </div>
+
+<!--    &lt;!&ndash;    Project 8&ndash;&gt;-->
+<!--    <div class="card text-center">-->
+
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Special title treatment</h5>-->
+<!--            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;    Project 9&ndash;&gt;-->
+<!--    <div class="card text-center">-->
+
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Special title treatment</h5>-->
+<!--            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;    Project 10&ndash;&gt;-->
+<!--    <div class="card text-center">-->
+
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Special title treatment</h5>-->
+<!--            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;    Project 11&ndash;&gt;-->
+<!--    <div class="card text-center">-->
+
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Special title treatment</h5>-->
+<!--            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;    Project 12&ndash;&gt;-->
+<!--    <div class="card text-center">-->
+
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Special title treatment</h5>-->
+<!--            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;    Project 13&ndash;&gt;-->
+<!--    <div class="card text-center">-->
+
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title">Special title treatment</h5>-->
+<!--            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+</div>
+<!-- End of Bootstrap Container-->
+
+<footer>
+    <span>&copy; Nadine Rodriguez 2021</span>
+</footer>
+
 </body>
 
 </html>
