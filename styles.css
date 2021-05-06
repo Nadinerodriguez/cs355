@@ -1,3 +1,7 @@
+body {
+    background-image: url("background.jpeg");
+}
+
 footer {
     position: fixed;
     left: 0;
@@ -9,19 +13,19 @@ footer {
 }
 
 .container-fluid {
-    padding: 30px;
-    background-color: rgb(74, 73, 73);
+    padding: 60px;
+
 }
 .card {
     margin: 50px;
 }
- p {
-   color: rgb(235, 148, 148);
-   font-family: 'Caveat';
- }
- .content-wrap{
-     max-width: 800px;
-     width: 85%;
-     margin: 0 auto;
-     padding:  60px 0;
- }
+p {
+    color: rgb(235, 148, 148);
+    font-family: 'Caveat';
+}
+.content-wrap{
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding:  60px 0;
+}
